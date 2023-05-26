@@ -1,0 +1,131 @@
+#searchResultsContainer .product-container {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#searchResultsContainer .product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#searchResultsContainer .product-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#searchResultsContainer .product-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#searchResultsContainer .product-description {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#searchResultsContainer .product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ #searchBar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sort-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ .sort-container > label {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+  color: #00c38c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family:'Times New Roman', Times, serif
+}
+
+
+
+.sort-container > #sortOption {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.sort-container > #categoryOption {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#searchResultsContainer > .result-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+#searchResultsContainer > .saisr-null {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+#searchResultsContainer > .No-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}

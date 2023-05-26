@@ -1,0 +1,11 @@
+services:
+    App\Compiler\MyCompilerPass:
+        class: App\Compiler\MyCompilerPass
+        tags:
+            - { name: 'container.compiler_pass', priority: 100 }
+
+    dotit.elasticsearchcnx.elasticsearch_command:
+        class: Dotit\Elasticsearchcnx\Command\ElasticsearchCommand
+        public: true
+        tags:
+            - { name: 'console.command' }

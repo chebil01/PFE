@@ -1,0 +1,135 @@
+#search-btn {
+  float: right;
+}
+
+#search-dialog {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 90%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+#search-dialog h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+#search-dialog .search-results-container {
+  height: calc(100% - 90px);
+  overflow: auto;
+}
+
+#search-dialog input[type="text"] {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#search-dialog .saisr-null {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.search-results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.product-info .search-result-price {
+  margin-left: auto;
+  font-weight: bold;
+  color: #00ffb7;
+}
+
+.product-link {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+}
+
+
+
+#close-btn {
+  background-color: transparent;
+  color: #ff3434;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
+#btn{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#search-dialog .search-results-list{
+ 
+ color: #fc8f00;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+#search-dialog .search-result-button{
+  padding: 10px 20px;
+  background-color: #099aee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+
+}
